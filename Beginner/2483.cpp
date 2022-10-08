@@ -1,4 +1,5 @@
-// https://www.beecrowd.com.br/judge/en/problems/view/1958
+
+// https://www.beecrowd.com.br/judge/en/problems/view/2483
 // Tanjila Shamima
 // Software Engineer at BJIT Group
 // uri online problem solved by Tanjila Shamima
@@ -14,12 +15,14 @@ using namespace std;
 
 int main()
 {
-    long double X;
-    char s[110];
-    scanf("%LE", &X);
-    sprintf(s, "%LE", X);
-    if (s[0] != '-')
-        printf("+");
-    printf("%.4LE\n", X);
+
+    int n, i;
+    cin >> n;
+    cout << "Feliz nat";
+    for (i = 1; i <= n; i++)
+    {
+        cout << "a";
+    }
+    cout << "l!" << endl;
     return 0;
 }

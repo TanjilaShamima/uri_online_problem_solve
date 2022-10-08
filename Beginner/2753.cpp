@@ -1,4 +1,5 @@
-// https://www.beecrowd.com.br/judge/en/problems/view/1958
+
+// https://www.beecrowd.com.br/judge/en/problems/view/2753
 // Tanjila Shamima
 // Software Engineer at BJIT Group
 // uri online problem solved by Tanjila Shamima
@@ -14,12 +15,12 @@ using namespace std;
 
 int main()
 {
-    long double X;
-    char s[110];
-    scanf("%LE", &X);
-    sprintf(s, "%LE", X);
-    if (s[0] != '-')
-        printf("+");
-    printf("%.4LE\n", X);
+
+    int i;
+    char ch1, ch2;
+    for (i = 97, ch1 = 'e', ch2 = 'a'; i <= 122, ch2 <= 'z'; i++, ch2++)
+    {
+        printf("%d %c %c\n", i, ch1, ch2);
+    }
     return 0;
 }

@@ -1,4 +1,5 @@
-// https://www.beecrowd.com.br/judge/en/problems/view/1958
+
+// https://www.beecrowd.com.br/judge/en/problems/view/2581
 // Tanjila Shamima
 // Software Engineer at BJIT Group
 // uri online problem solved by Tanjila Shamima
@@ -8,18 +9,21 @@
 #include <iomanip>
 #include <bits/stdc++.h>
 #include <math.h>
-#include <string>
+#include<stdio.h>
 
 using namespace std;
 
 int main()
 {
-    long double X;
-    char s[110];
-    scanf("%LE", &X);
-    sprintf(s, "%LE", X);
-    if (s[0] != '-')
-        printf("+");
-    printf("%.4LE\n", X);
+
+    int i, n;
+    char ch[1000];
+    scanf("%d", &n);
+    for (i = 0; i < n; i++)
+    {
+        gets(ch);
+        getchar();
+        printf("I am Toorg!\n");
+    }
     return 0;
 }

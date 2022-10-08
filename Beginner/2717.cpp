@@ -1,4 +1,5 @@
-// https://www.beecrowd.com.br/judge/en/problems/view/1958
+
+// https://www.beecrowd.com.br/judge/en/problems/view/2717
 // Tanjila Shamima
 // Software Engineer at BJIT Group
 // uri online problem solved by Tanjila Shamima
@@ -14,12 +15,14 @@ using namespace std;
 
 int main()
 {
-    long double X;
-    char s[110];
-    scanf("%LE", &X);
-    sprintf(s, "%LE", X);
-    if (s[0] != '-')
-        printf("+");
-    printf("%.4LE\n", X);
+
+    int t, x, y, sum;
+    cin >> t;
+    cin >> x >> y;
+    sum = x + y;
+    if (sum <= t)
+        cout << "Farei hoje!" << endl;
+    else if (sum > t)
+        cout << "Deixa para amanha!" << endl;
     return 0;
 }
